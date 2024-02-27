@@ -11,7 +11,7 @@ interface InputProps {
   onKeyUp: (value: any) => void;
 }
 
-export const Input: React.FC<InputProps> = ({label, value, placeholder, onChange, type='text', labelClassName, inputClassName, onKeyUp, _default = true}) => {
+export const Input: React.FC<InputProps> = ({label, value, placeholder, onChange, type='text', labelClassName, inputClassName, onKeyUp}) => {
   return (
     <>
       {label && <label className={ `mb-[10px] block text-base font-medium text-dark dark:text-white ${labelClassName}`}>{label}</label>}
