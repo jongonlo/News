@@ -23,6 +23,6 @@ Load the app: https://jongonlo.github.io/News/
 
 Note: you are not able to get data because the API is free only locally, I would need to upgrade the plan and pay to use it in production
 
-here and example:
+here an example:
 ![image](https://github.com/jongonlo/News/assets/11337256/03693cba-fb46-462f-ba0f-40141ac7fdf2)
 
