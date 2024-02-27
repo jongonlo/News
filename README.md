@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+### Libraries and frameworks
+1- Node 20.11.1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2- React 18.2.0
 
-Currently, two official plugins are available:
+3- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4- Axios
 
-## Expanding the ESLint configuration
+5- https://newsapi.org/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### How to run
 
-- Configure the top-level `parserOptions` property like this:
+1- download the repository
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2- run in the terminal npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3- run in the terminal npm run dev
+
+
+### DEMO 
+Load the app: https://jongonlo.github.io/News/
